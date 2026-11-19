@@ -32,5 +32,6 @@ java -cp target/classes br.com.lavarapido.Main
 - Os dados ficam apenas **em memória** e são perdidos ao fechar o programa.
 - A placa continua aparecendo no cadastro do cliente por compatibilidade com o projeto original. A aba Veículos oferece cadastro adicional e vínculo com cliente.
 - Não há persistência em banco de dados. As regras de negócio estão nas classes do pacote `service`. Cada módulo possui uma classe View; a `TelaPrincipal` coordena os eventos e chama os controllers.
-- Documentação: `docs/Documentacao_Lava_Rapido_ABNT.docx`.
-- Diagramas: `docs/diagramas-uml.md`.
+- Documentação: docs/LavaRapidoGabriel.pdf
+- Diagramas: docs/Diagrama_Classes_LavaRapidoGabriel.drawio
+- docs/Diagrama_Sequencia_LavaRapidoGabriel.drawio
