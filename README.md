@@ -6,9 +6,13 @@ Projeto acadêmico de cadastro de clientes, serviços, veículos e agendamentos.
 - Java 17 ou superior
 - NetBeans com suporte a Maven (ou terminal com Maven instalado)
 
-## Executar no NetBeans
-1. Extraia o ZIP e abra a pasta que contém `pom.xml` em **File > Open Project**.
-2. Execute a classe `br.com.lavarapido.Main` (ou escolha essa classe ao clicar em Run).
+##### Como executar o projeto no NetBeans
+
+O sistema foi desenvolvido em Java, utilizando o NetBeans e o Maven para organizar o projeto.
+
+Para executar, primeiro é necessário baixar os arquivos disponíveis neste repositório do GitHub. Depois, basta abrir o NetBeans, selecionar a opção **File > Open Project** e escolher a pasta do projeto, onde está localizado o arquivo `pom.xml`.
+
+Com o projeto aberto, é só executar a classe `Main`, que fica no pacote `br.com.lavarapido`. O programa abrirá a tela principal, permitindo acessar os cadastros de clientes, serviços, veículos e a agenda de atendimentos.
 
 ## Executar pelo terminal
 ```bash
